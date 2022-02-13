@@ -254,11 +254,11 @@
 
 .services-section {
     background: #dfdfdf;
-    height: 100vh;
+    height: 100%;
 }
 
 .services-container {
-    padding: 50px;
+    padding: 100px;
     margin: 0 auto;
 }
 
@@ -342,7 +342,6 @@
 
 
     .services-desc h2 {
-        font-size: 3rem;
         margin-top: 0.5em;
     }
 
@@ -409,10 +408,10 @@
 /* About Section */
 
 .about-section {
-    padding: 100px;
+    padding: 150px 100px;
     margin: 0;
     background: #dfdfdf;
-    height: 100vh;
+    height: 100%;
 }
 
 .about-container {
@@ -446,10 +445,6 @@
         padding: 50px 40px;
         height: 100%;
     }
-    
-    .about-content h1 {
-        font-size: 2.5rem;
-    }
 
     .about-content p {
         font-size: 1.3rem;
@@ -461,13 +456,15 @@
         padding: 40px;
     }
 
+    .about-content p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
     .about-content h1 {
         font-size: 2rem;
         margin: 10px 0;
-    }
-
-    .about-content p {
-        font-size: 0.9rem;
     }
 }
 
@@ -475,7 +472,7 @@
 
 .contact-section {
     background: #dfdfdf;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -676,9 +673,6 @@ form .form-button button:hover {
 }
 
 @media screen and (max-width: 760px) {
-    .contact-section h1 {
-        font-size: 2rem;
-    } 
 
     .contact-wrapper {
         width: 80%;
@@ -727,6 +721,12 @@ form .form-button button:hover {
         font-size: 1rem;
     }
 }
+
+@media screen and (max-width: 575px) {
+    .contact-section h1 {
+        font-size: 2rem;
+    }
+} 
 
 /* modal background */
 .modal {
